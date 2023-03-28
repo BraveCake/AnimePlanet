@@ -6,6 +6,30 @@
   height: 40vmin;
   pointer-events: none;
 }
+.twhite
+{
+  background: rgba(255,255,255,.7) !important;
+}
+body
+{
+  margin:0;
+  padding:0;
+  background: url('../public/wp.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]),textarea:not(.browser-default):focus:not([readonly])
+{
+  border-color:pink;
+  box-shadow:none;
+}
+from{
+  padding: 20px;
+  margin-top:60px;
+}
+button, form {
+  margin: 20px 0;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
